@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e72433410a2e4674399598ad28d0a74d, type: 3}
+  m_Name: mage
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  icon: {fileID: 2800000, guid: fb9bcc3943d1ca94497fd61e5e8c2fde, type: 3}
+  sprite: {fileID: 21300000, guid: b6528ae9698f3a14aac70878e2b082bb, type: 3}
+  Name: Mage
+  AnimatorController: {fileID: 9100000, guid: a9192b64d1725574698b9676e86a2dde, type: 2}
+  stats:
+    maxAp: 10
+    maxStat: 100
+    stats:
+      stats:
+      - type: 1
+        value: 100
+      - type: 0
+        value: 10
+      - type: 2
+        value: 15
+      - type: 3
+        value: 0
+  abilities:
+  - {fileID: 11400000, guid: 7c2b23e615720b34fa6d82a78da66464, type: 2}
+  - {fileID: 11400000, guid: fd58969bf0df2414089b13f96f81fc30, type: 2}
+  - {fileID: 11400000, guid: 321125232f6eb7e42990f737104f0332, type: 2}
+  - {fileID: 11400000, guid: 6a308f3163fd7ca4785a7e113b61003f, type: 2}
+  - {fileID: 11400000, guid: 3d9c929b1681c7948bafb15388064069, type: 2}
+  type: Mage
+  equipment:
+    mainHand: {fileID: 11400000, guid: 26c395404353d3d41a8893202793092c, type: 2}
+    body: {fileID: 11400000, guid: d45bc8a01556f0c4cbe4e72764ce03cc, type: 2}

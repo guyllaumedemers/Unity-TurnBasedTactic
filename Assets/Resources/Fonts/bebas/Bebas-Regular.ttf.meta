@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: cbfeb70977abf26408df83289477bc73
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Bebas
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 74a62d53178ea5d4ab624c7eb26055a4, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

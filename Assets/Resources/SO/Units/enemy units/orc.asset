@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 407325718f9d93c4fb6470a63ea34676, type: 3}
+  m_Name: orc
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  icon: {fileID: 2800000, guid: 97eb33f17282b874aafc04781652f343, type: 3}
+  sprite: {fileID: 0}
+  Name: Orc
+  AnimatorController: {fileID: 9100000, guid: bde1ca1dcc376914b960b702200ec856, type: 2}
+  stats:
+    maxAp: 10
+    maxStat: 100
+    stats:
+      stats:
+      - type: 1
+        value: 100
+      - type: 0
+        value: 10
+      - type: 2
+        value: 15
+      - type: 3
+        value: 0
+  abilities:
+  - {fileID: 11400000, guid: 7c2b23e615720b34fa6d82a78da66464, type: 2}
+  - {fileID: 11400000, guid: 02f03aaad2549ad40aefaa64b229efec, type: 2}
+  - {fileID: 11400000, guid: f1c63237ff299af47a2852ab5f3f51e3, type: 2}
+  - {fileID: 11400000, guid: 9afc0b7a265599542bebad36a237db79, type: 2}
+  - {fileID: 11400000, guid: e2a8e9192330d8f41a4147324ef0e83a, type: 2}
+  type: Orc
+  drops:
+  - {fileID: 11400000, guid: fcbde7a143c9d4c4c868f71db9a79f1c, type: 2}
+  - {fileID: 11400000, guid: c9c66e77d14c2de48a494b049a96fece, type: 2}
+  - {fileID: 11400000, guid: d5790e2a738c77e40a240f255da273d9, type: 2}
+  - {fileID: 11400000, guid: f0d9b6db77bc07849b2afcf6f38527e4, type: 2}

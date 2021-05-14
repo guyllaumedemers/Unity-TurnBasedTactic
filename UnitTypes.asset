@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c63a5023d50e40fe803cad6085e66f83, type: 3}
+  m_Name: UnitTypes
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: playerTypes
+      Entry: 7
+      Data: 0|System.Collections.Generic.HashSet`1[[System.String, mscorlib]], System.Core
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 1
+      Data: Healer
+    - Name: 
+      Entry: 1
+      Data: Mage
+    - Name: 
+      Entry: 1
+      Data: Warrior
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: enemyTypes
+      Entry: 7
+      Data: 1|System.Collections.Generic.HashSet`1[[System.String, mscorlib]], System.Core
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 1
+      Data: Boss
+    - Name: 
+      Entry: 1
+      Data: EvilMage
+    - Name: 
+      Entry: 1
+      Data: Imp
+    - Name: 
+      Entry: 1
+      Data: Ooze
+    - Name: 
+      Entry: 1
+      Data: Orc
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 

@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68a01976fc8585044b8a147eb96476b5, type: 3}
+  m_Name: Map2
+  m_EditorClassIdentifier: 
+  playerUnits: []
+  enemyUnits:
+  - {fileID: 11400000, guid: c898c2377a2331044a6061049535837b, type: 2}

@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 407325718f9d93c4fb6470a63ea34676, type: 3}
+  m_Name: DarkMage
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  icon: {fileID: 2800000, guid: 2531e15fe967a354d9d28c9cfc1d71ca, type: 3}
+  sprite: {fileID: 3113586446087389919, guid: aac85ea9ba215664abaa52f2cdc19cd0, type: 3}
+  Name: DarkMage
+  AnimatorController: {fileID: 9100000, guid: f2e9f65c0f7b5304cadc79ed67f24b96, type: 2}
+  stats:
+    maxAp: 10
+    maxStat: 100
+    stats:
+      stats:
+      - type: 1
+        value: 100
+      - type: 0
+        value: 10
+      - type: 2
+        value: 10
+      - type: 3
+        value: 0
+  abilities:
+  - {fileID: 11400000, guid: 7c2b23e615720b34fa6d82a78da66464, type: 2}
+  - {fileID: 11400000, guid: fd58969bf0df2414089b13f96f81fc30, type: 2}
+  - {fileID: 11400000, guid: 321125232f6eb7e42990f737104f0332, type: 2}
+  - {fileID: 11400000, guid: 3d9c929b1681c7948bafb15388064069, type: 2}
+  - {fileID: 11400000, guid: e153d0981eb37684196b02fa76c0757f, type: 2}
+  type: Ooze
+  drops:
+  - {fileID: 11400000, guid: 367c73fff2dcbbb4382855f00b4f410d, type: 2}
+  - {fileID: 11400000, guid: 4b5223686c6fa0f4ea3036e20d14eaf5, type: 2}
+  - {fileID: 11400000, guid: d5790e2a738c77e40a240f255da273d9, type: 2}
+  - {fileID: 11400000, guid: f0d9b6db77bc07849b2afcf6f38527e4, type: 2}

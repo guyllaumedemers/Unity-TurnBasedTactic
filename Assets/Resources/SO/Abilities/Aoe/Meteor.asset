@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5942fc804a1c4fa7abc820ee5801fd3b, type: 3}
+  m_Name: Meteor
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  icon: {fileID: 2800000, guid: 0d852f5493cecf94a90183f3f83ce947, type: 3}
+  sprite: {fileID: 21300000, guid: 0d852f5493cecf94a90183f3f83ce947, type: 3}
+  Name: Meteor
+  apCost: 8
+  multiplier: 2
+  damage: 17
+  range: 7
+  duration: 1
+  cooldown: 2
+  canCastSelfOnly: 0
+  canCastOnFriendlies: 1
+  canDamageFriendlies: 1
+  abilityEffect: {fileID: 2242434899977670280, guid: 51d2a1ceac6f59346a79c5da5ca9a897, type: 3}
+  clip: {fileID: 8300000, guid: cfdc9ba05d16a934aa440e437ec2b932, type: 3}
+  animationManager: {fileID: 0}
+  area: 3

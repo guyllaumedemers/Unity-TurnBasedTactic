@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5942fc804a1c4fa7abc820ee5801fd3b, type: 3}
+  m_Name: Blizzard
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  icon: {fileID: 2800000, guid: 4184495d79c523148bd19006e6e88b2d, type: 3}
+  sprite: {fileID: 21300000, guid: 4184495d79c523148bd19006e6e88b2d, type: 3}
+  Name: Blizzard
+  apCost: 6
+  multiplier: 0
+  damage: 25
+  range: 6
+  duration: 0
+  cooldown: 4
+  canCastSelfOnly: 0
+  canCastOnFriendlies: 1
+  canDamageFriendlies: 1
+  abilityEffect: {fileID: 536024697018613436, guid: b113ca10eb09b534fb4bdb4759bc626f, type: 3}
+  clip: {fileID: 8300000, guid: 83d55d8defc3966479e285b172a907e8, type: 3}
+  animationManager: {fileID: 0}
+  area: 3

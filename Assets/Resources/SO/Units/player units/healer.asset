@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e72433410a2e4674399598ad28d0a74d, type: 3}
+  m_Name: healer
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  icon: {fileID: 2800000, guid: 511b7df189d509e4bbb3271bf1df0df5, type: 3}
+  sprite: {fileID: 21300000, guid: 47436a426273e444991214eb0615d50b, type: 3}
+  Name: Healer
+  AnimatorController: {fileID: 9100000, guid: e7c788c0bd13a9f42ab5c0d26ae79da8, type: 2}
+  stats:
+    maxAp: 10
+    maxStat: 100
+    stats:
+      stats:
+      - type: 0
+        value: 10
+      - type: 1
+        value: 100
+      - type: 2
+        value: 10
+      - type: 3
+        value: 0
+  abilities:
+  - {fileID: 11400000, guid: 7c2b23e615720b34fa6d82a78da66464, type: 2}
+  - {fileID: 11400000, guid: cb290979ddfe1bb4084ceee357b2ed45, type: 2}
+  - {fileID: 11400000, guid: 2afd72cd80668c749a386458ed17f9d1, type: 2}
+  - {fileID: 11400000, guid: 6ad732be7939caa4a98d7504874a2c3b, type: 2}
+  - {fileID: 11400000, guid: fd58969bf0df2414089b13f96f81fc30, type: 2}
+  type: Healer
+  equipment:
+    mainHand: {fileID: 11400000, guid: 6f5e1782e5f35ab4bb764bbf750de6d3, type: 2}
+    body: {fileID: 11400000, guid: 75b718b459ff39940884ba8134089d00, type: 2}

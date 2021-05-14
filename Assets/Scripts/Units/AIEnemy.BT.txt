@@ -1,0 +1,42 @@
+
+tree("Root")
+	sequence
+		IsItMyTurn
+		fallback
+			not mute ChangeTurn()
+			fallback
+				sequence
+					not IsAnEnemyInRange
+					fallback
+						sequence
+							not canAttack
+							Move
+							not mute tree("Wait")
+					Attack
+				not mute setTaget
+				not mute tree("Move")
+				tree("Attack")
+			
+			
+
+tree("Attack")
+	sequence
+		MorePointAction(false)
+		Attack
+
+
+tree("Move")
+	sequence
+		fallback
+			not InRange
+			DoesWallBlockView
+		sequence
+			MorePointAction(true)
+			Move
+			not mute tree("Wait")
+				
+tree("Wait")
+	repeat
+		while 
+			not moveCompleted
+			WaitingToMove

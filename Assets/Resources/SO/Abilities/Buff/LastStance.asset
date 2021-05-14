@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fab192350b34cdf991b8ce40c34086f, type: 3}
+  m_Name: LastStance
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  icon: {fileID: 2800000, guid: 5d1d51ce1560d254db60f4cb6c26cdaf, type: 3}
+  sprite: {fileID: 21300000, guid: 5d1d51ce1560d254db60f4cb6c26cdaf, type: 3}
+  Name: LastStance
+  apCost: 3
+  multiplier: 0
+  damage: 0
+  range: 0
+  duration: 2
+  cooldown: 5
+  canCastSelfOnly: 1
+  canCastOnFriendlies: 0
+  canDamageFriendlies: 0
+  abilityEffect: {fileID: 6960324248709778852, guid: 55935a3d1a6481344ab4f5bbb6bbf8d7, type: 3}
+  clip: {fileID: 8300000, guid: ebbf5a6868b22394db973827b9a7c1dc, type: 3}
+  animationManager: {fileID: 0}
+  mods:
+    stats: []
+  immune: 1
