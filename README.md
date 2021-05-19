@@ -1,4 +1,4 @@
-# Unity Turn-Based tactic [ASSET MISSING FOR AStar]
+# Unity Turn-Based tactic [ASSET MISSING FOR AStar AND Odin]
 
 ## Tactic Game
 
