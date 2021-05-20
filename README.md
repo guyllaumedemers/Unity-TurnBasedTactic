@@ -2,7 +2,7 @@
 
 ## Tactic Game
 
-* Meachanic and Features
+* Mechanic and Features
 
   * Grid System
     * Tile Rules
