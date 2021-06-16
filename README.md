@@ -1,6 +1,6 @@
 # Unity-TurnBasedTactic
 
-Welcome to Unity-TurnBasedTactic, a group project made in the academic field based on the classic : Final Fantasy Tactics.</br>
+Welcome to Unity-TurnBasedTactic, a group project made in the academic field based on the classic : __Final Fantasy Tactics__.</br>
 Useful scripts are located in Assets/Scripts/..
 
 ## Getting Started
