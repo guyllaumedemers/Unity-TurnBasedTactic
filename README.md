@@ -65,4 +65,4 @@ NOTE : UI interactions are broken down into several scipts. PlayerHUD is at the 
 
 ## Resources
 
-💬 References for patterns are given from : [Design Patterns: Elements of Reusable Object‑Oriented Software]()
+💬 References for patterns are given from : [Design Patterns: Elements of Reusable Object‑Oriented Software](https://www.amazon.ca/-/fr/Gamma-Erich-ebook/dp/B000SEIBB8)
