@@ -9,7 +9,7 @@ This repository has for objective of showcasing what could be achieve with a gro
 Some of the features presented here are obviously not mine and I won't take credit for them. __A detail list of the features I worked on will follow.__
 
 ```
-NOTE : This project is currently a broken version of itselft as we used un-authorized asset to ease the development process.
+NOTE : This project is currently a broken version of itself as we used purchased assets that cannot be redistibuted.
 ```
 
 👉 A* Pathfinding</br>
